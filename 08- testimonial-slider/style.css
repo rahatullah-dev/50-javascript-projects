@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-image: url(./images/hotel_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-container{
+    width:450px;
+    height: 100px;
+    background-color: darkblue;
+    opacity: .7;
+    border: 2px solid orange;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    min-width: 400px;
+    padding: 70px 20px;
+    margin: 5px;
+    color: white;
+    position: relative;
+}
+@media(width:300px){
+    .testimonial-container{
+        width: 200px;
+        height: 70px;
+        background-color: rd;
+    }
+}
+p{
+    text-shadow: 2px 2px 3px black;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    border: 2px solid orange;
+
+}
+
+.username{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+
+.username::first-letter{
+    color: orange;
+}
+.username::after{
+    color: orange;
+}
+
+
+
+/* slogan stle start hereh */
+
+h3{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: sans;
+
+}
+h3{
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 30%;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 32px;
+    min-width:350px;
+}

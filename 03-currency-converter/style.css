@@ -6,13 +6,11 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
-    padding: 0;
+    padding: 30px;
     margin: 0;
     background-image: url(./assets/hotel_1.png);
     background-size: cover;
     background-repeat: no-repeat;
-
-    
 }
 
 .container{
@@ -30,19 +28,17 @@ body{
     padding: 20px;
     display: flex;
     justify-content: space-between;
-
 }
 .currency-converter select{
     padding:10px;
     background-color: transparent;
     color: white;
-
+    
 }
 .currency-converter option{
     background-color: transparent;
     opacity: .2;
-    color:black
-
+    color:black;
 }
 .currency-converter input{
     border: 0.1px solid orange;
@@ -55,14 +51,50 @@ body{
 .exchange-rate{
     font-size: 16px;
     font-weight: 600;
-
+    
 }
 select:focus,
 input:focus{
     outline:0;
-
+    
 }
 
+@media(max-width:768px){
+    .container{
+    max-width: 280px;
+    background-color:black;
+    opacity: .7;
+    border: 2px solid orange;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    }
+    .currency-converter{
+        padding: 20px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(max-width:560px){
+    .container{
+    max-width: 280px;
+    background-color:black;
+    opacity: .7;
+    border: 2px solid orange;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+        
+    }
+    .currency-converter{
+        padding: 20px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
 
 /* slogan stle start hereh */

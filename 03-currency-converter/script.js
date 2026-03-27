@@ -34,6 +34,7 @@ exchangeRateEl.innerText = "Loading...";
 const containerEl = document.getElementById("slogan");
 
 const careers = [
+  "Currency Converter",
     "I am Rahat Ullah",
     "A Front-End",
   "Web Developer",
